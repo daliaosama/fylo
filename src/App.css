@@ -1,0 +1,401 @@
+
+main{
+  display: flex;
+  flex-direction: column;
+width: 100%;
+background-color: hsl(218, 28%, 13%); 
+
+ position: relative;
+ 
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  height: 5rem;
+ background-color: hsl(217, 28%, 15%); 
+ align-items: center;
+}
+header img{
+  width:5rem;
+  height: 2rem;
+}
+ul{
+  display: flex;
+  color: hsl(0, 0%, 100%);
+  gap: 3rem;
+}
+ul li{
+  list-style-type: none;
+  cursor: pointer;
+}
+#top{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+   background-color: hsl(217, 28%, 15%); 
+   background-image: url('/src/assets/images/bg-curvy-desktop.svg');
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+  height: 40rem;
+ 
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y:20rem ;
+  background-position-x: -10rem;
+}
+#top img{
+  height: 20rem;
+}
+h1{
+  color: hsl(0, 0%, 100%);
+}
+h2{
+  color: hsl(0, 0%, 100%);
+  width: 25rem;
+ 
+}
+p{
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  width: 30rem;
+}
+button{
+  width:15rem;
+  height: 3rem;
+  border-radius: 20px;
+  background-image: linear-gradient(to right ,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+#middle{
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  grid-template-columns: repeat(2,20rem);
+  grid-template-rows: repeat(2,15rem);
+  gap:4rem
+}
+.mid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h4{
+  color: hsl(0, 0%, 100%);
+}
+.midle{
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.622);
+  width: 20rem;
+}
+#middle1{
+  display: flex;
+justify-content: center;
+ box-sizing: border-box;
+ gap: 3rem;
+ height: 22rem;
+ width: 100%;
+}
+#middle1 img{
+  width: 30rem;
+}
+#right p {
+text-align: left;  
+}
+#middle2{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  height: 40rem;
+  background-image: url('images/bg-quotes.png');
+  background-repeat: no-repeat;
+  background-position-x: 8rem;
+  background-position-y:2rem ;
+  align-items: center;
+}
+.mid2{
+  background-color: hsl(217, 28%, 15%);   
+  padding: 2rem;
+  box-sizing: border-box;
+  height: 12rem;
+}
+.mid2 p{
+  width: 20rem;
+  font-size: 12px;
+  text-align: left;
+}
+.img{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.person{
+  display: flex;
+  gap:1rem;
+  height: 10rem;
+ 
+}
+.about{
+  display: flex;
+  flex-direction: column;
+}
+h5{
+  margin: 0;
+  color: hsl(0, 0%, 100%);
+}
+label{
+  color: hsla(0, 0%, 100%, 0.622);
+}
+#bottom{
+  background-color: hsl(217, 28%, 15%); 
+  display: flex;
+  align-self: center;
+  width: 45rem;
+  height: 15rem;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top:131rem
+}
+#input{
+  display: flex;
+  gap: 2rem;
+}
+#input input{
+  width: 20rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+footer{
+  display: flex;
+  padding:2rem;
+  box-sizing: border-box;
+  background-color: hsl(216, 53%, 9%);
+  width: 100%;
+  height: 20rem;
+  flex-direction: column;
+  gap: 2rem;
+}
+.imgs{
+  width:1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+#aboutfylo{
+  display: flex;
+
+}
+#aboutfylo p{
+  margin: 0;
+}
+footer img{
+  width:5rem;
+  height: 2rem; 
+}
+#contactinfo{
+  display: flex;
+  flex-direction: column;
+}
+.image{
+  width:10px;
+  height: 10px;
+}
+#bot ul{
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+  margin: 0;
+}
+#bot{
+  display: flex;
+  width: 100%;
+  height: 15rem;
+  gap:3rem
+}
+#logo{
+height: 5rem;
+}
+#social{
+  display: flex;
+  gap:2rem
+}
+a:link{
+  color: aliceblue;
+}
+@media only screen and (min-width:344px) and (max-width:600px){
+  #top{
+    background-image: url('/src/assets/images/bg-curvy-mobile.svg');
+   background-position: bottom;
+  }
+  #middle{
+      grid-template-columns: repeat(1,100%);
+      grid-template-rows: repeat(4,15rem);
+      gap:2rem
+  }
+  h1{
+      font-size: 20px;
+      width: 20rem;
+  }
+  #right,#left{
+      width:100%
+  }
+  #middle1{
+      height: 39rem;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      padding-left: 2rem;
+      box-sizing: border-box;
+  }
+  #top p{
+    width: 20rem;
+  }
+  #middle2{
+      flex-direction: column;
+      height: 35rem;
+      gap: 1rem;
+      justify-content: unset;
+      padding: 2rem;
+      box-sizing: border-box;
+     
+  }
+  #input{
+      flex-direction: column;
+      gap: 1rem;
+  }
+  #bottom{
+      width: 90%;
+     position: unset;
+  }
+  #bottom p{
+    width: 25rem;
+    font-size: 14px;
+   height: 8rem;
+   
+  }
+  #bot{
+      flex-direction: column;
+  }
+ footer{
+  height: 45rem;
+ } 
+ #input input{
+  height:2.5rem
+ }
+ #left img{
+  width: 100%;
+ }
+ #right p{
+  width: 25rem;
+ }
+ .mid2{
+  height: 10rem;
+  padding: 1rem;
+ }
+ #bottom h1{
+  margin-bottom: 0;
+ }
+ #social{
+  align-self: center;
+ }
+ #aboutfylo p{
+  text-align: unset;
+ }
+ footer ul{
+  padding:0;
+
+ }
+ header ul{
+  gap:2rem
+ }
+}
+@media only screen and (min-width:712px) and (max-width:801px) {
+  #middle{
+    grid-template-columns: repeat(1,100%);
+    grid-template-rows: repeat(4,15rem);
+    gap:2rem
+}
+h1{
+    font-size: 20px;
+    width: 20rem;
+}
+#left{
+    width:100%
+}
+#right{
+  align-self: center;
+}
+#middle1{
+    height: 47rem;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding-left: 2rem;
+    box-sizing: border-box;
+}
+#middle2{
+  flex-direction: column;
+  height: 38rem;
+  gap: 1rem;
+
+  
+  box-sizing: border-box;
+ 
+}
+#bottom{
+  width: 90%;
+ position: unset;
+}
+#bottom p{
+width: 25rem;
+}
+#bot{
+  flex-direction: column;
+}
+footer{
+height: 45rem;
+} 
+#input input{
+height:2.5rem
+}
+#left img{
+width: 100%;
+}
+#right p{
+width: 25rem;
+}
+.mid2{
+height: 10rem;
+padding: 1rem;
+}
+#bottom h1{
+margin-bottom: 0;
+}
+#social{
+align-self: center;
+}
+#aboutfylo p{
+text-align: unset;
+}
+footer ul{
+padding:0;
+
+}
+}
